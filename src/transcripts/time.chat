@@ -1,0 +1,14 @@
+user=Timothy
+bot=CodePunkConferenceBot
+
+user: What time is the talk on bots?
+bot: It's at noon today.
+[Suggestions=Add to list|Learn more]
+
+user: What time is the talk on mobile development?
+bot: We have a few.
+bot: There's one at noon.
+[Suggestions=Add to list|Learn more]
+
+bot: There's another one at 1 PM.
+[Suggestions=Add to list|Learn more]

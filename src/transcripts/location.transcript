@@ -1,0 +1,198 @@
+
+
+-----------------------------------------------------------
+ NOTICE:
+ This tool has been deprecated.
+ All functionality was ported over to the new BF CLI.
+ To learn more visit https://aka.ms/NewBFCLI
+-----------------------------------------------------------
+
+[
+  {
+    "conversation": {
+      "id": "cuvbnBfeLUJdir4a9arAMCq4NXI="
+    },
+    "id": "1",
+    "recipient": {
+      "id": "BeUUSHnZQqPAmXvwyp+9SILJSDw=",
+      "name": "CodePunkCodePunkBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "timestamp": "2021-02-06T22:33:59.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "BeUUSHnZQqPAmXvwyp+9SILJSDw=",
+        "name": "CodePunkCodePunkBot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "cuvbnBfeLUJdir4a9arAMCq4NXI="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "BeUUSHnZQqPAmXvwyp+9SILJSDw=",
+      "name": "CodePunkCodePunkBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "text": "Where is the talk on bots?",
+    "timestamp": "2021-02-06T22:34:01.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "buttons": [
+            {
+              "title": "Add to list",
+              "type": "imBack",
+              "value": "Add to list"
+            },
+            {
+              "title": "Learn more",
+              "type": "imBack",
+              "value": "Learn more"
+            }
+          ],
+          "title": "on location",
+          "subtitle": "UVA, School of Medicine",
+          "text": "Join Michael Szul in Rehearsal A for his discussion on building bot with the Microsoft Bot Framework",
+          "images": [
+            {
+              "url": "https://sample-image-url.com"
+            }
+          ]
+        }
+      }
+    ],
+    "conversation": {
+      "id": "cuvbnBfeLUJdir4a9arAMCq4NXI="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "BeUUSHnZQqPAmXvwyp+9SILJSDw=",
+      "name": "CodePunkCodePunkBot",
+      "role": "bot"
+    },
+    "text": "",
+    "timestamp": "2021-02-06T22:34:03.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "cuvbnBfeLUJdir4a9arAMCq4NXI="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "BeUUSHnZQqPAmXvwyp+9SILJSDw=",
+      "name": "CodePunkCodePunkBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "text": "Where is the talk on mobile development?",
+    "timestamp": "2021-02-06T22:34:05.100Z",
+    "type": "message",
+    "channelId": "chatdown",
+    "attachmentLayout": "carousel"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "buttons": [
+            {
+              "title": "Add to list",
+              "type": "imBack",
+              "value": "Add to list"
+            },
+            {
+              "title": "Learn more",
+              "type": "imBack",
+              "value": "Learn more"
+            }
+          ],
+          "title": "another location",
+          "subtitle": "University of Washington",
+          "text": "A brief talk on mobile development vs web",
+          "images": [
+            {
+              "url": "https://sample-image-url.com"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "buttons": [
+            {
+              "title": "Add to list",
+              "type": "imBack",
+              "value": "Add to list"
+            },
+            {
+              "title": "Learn more",
+              "type": "imBack",
+              "value": "Learn more"
+            }
+          ],
+          "title": "yet one more location too",
+          "subtitle": "Harvard University",
+          "text": "The use of Electron or Angular for mobile UI development",
+          "images": [
+            {
+              "url": "https://sample-image-url.com"
+            }
+          ]
+        }
+      }
+    ],
+    "conversation": {
+      "id": "cuvbnBfeLUJdir4a9arAMCq4NXI="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "BeUUSHnZQqPAmXvwyp+9SILJSDw=",
+      "name": "CodePunkCodePunkBot",
+      "role": "bot"
+    },
+    "text": "",
+    "timestamp": "2021-02-06T22:34:07.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]

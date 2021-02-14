@@ -1,0 +1,200 @@
+
+
+-----------------------------------------------------------
+ NOTICE:
+ This tool has been deprecated.
+ All functionality was ported over to the new BF CLI.
+ To learn more visit https://aka.ms/NewBFCLI
+-----------------------------------------------------------
+
+[
+  {
+    "conversation": {
+      "id": "9NF/v5YLCLq89IEcYl6ZK5fTIrg="
+    },
+    "id": "1",
+    "recipient": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "timestamp": "2021-02-06T22:34:31.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+        "name": "CodePunkConferenceBot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "9NF/v5YLCLq89IEcYl6ZK5fTIrg="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "text": "What time is the talk on bots?",
+    "timestamp": "2021-02-06T22:34:33.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "9NF/v5YLCLq89IEcYl6ZK5fTIrg="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "text": "It's at noon today.",
+    "timestamp": "2021-02-06T22:34:35.100Z",
+    "type": "message",
+    "channelId": "chatdown",
+    "suggestedActions": {
+      "actions": [
+        {
+          "title": "Add to list",
+          "type": "imBack",
+          "value": "Add to list"
+        },
+        {
+          "title": "Learn more",
+          "type": "imBack",
+          "value": "Learn more"
+        }
+      ]
+    }
+  },
+  {
+    "conversation": {
+      "id": "9NF/v5YLCLq89IEcYl6ZK5fTIrg="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "text": "What time is the talk on mobile development?",
+    "timestamp": "2021-02-06T22:34:37.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "9NF/v5YLCLq89IEcYl6ZK5fTIrg="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "text": "We have a few.",
+    "timestamp": "2021-02-06T22:34:39.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "9NF/v5YLCLq89IEcYl6ZK5fTIrg="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "text": "There's one at noon.",
+    "timestamp": "2021-02-06T22:34:41.100Z",
+    "type": "message",
+    "channelId": "chatdown",
+    "suggestedActions": {
+      "actions": [
+        {
+          "title": "Add to list",
+          "type": "imBack",
+          "value": "Add to list"
+        },
+        {
+          "title": "Learn more",
+          "type": "imBack",
+          "value": "Learn more"
+        }
+      ]
+    }
+  },
+  {
+    "conversation": {
+      "id": "9NF/v5YLCLq89IEcYl6ZK5fTIrg="
+    },
+    "id": "7",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "text": "There's another one at 1 PM.",
+    "timestamp": "2021-02-06T22:34:43.100Z",
+    "type": "message",
+    "channelId": "chatdown",
+    "suggestedActions": {
+      "actions": [
+        {
+          "title": "Add to list",
+          "type": "imBack",
+          "value": "Add to list"
+        },
+        {
+          "title": "Learn more",
+          "type": "imBack",
+          "value": "Learn more"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+user=Timothy
+bot=CodePunkConferenceBot
+
+user: Hello
+bot: Hello! What would you like me to call you?
+
+user: Timothy
+bot: Hello, Timothy. Here are some things that I can help you with:
+* Are there any talks on Bot Framework?
+* When is Michael Szul speaking?
+* Who is giving the keynote presentation?
+* Where can I hear the TypeScript talk?
+
+bot: Just type in whatever you need! If you get stuck, just type in "Help" and I'll see what I can do.

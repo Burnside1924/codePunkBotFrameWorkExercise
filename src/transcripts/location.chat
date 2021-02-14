@@ -1,0 +1,25 @@
+user=Timothy
+bot=CodePunkCodePunkBot
+
+user: Where is the talk on bots?
+bot:  [Herocard
+        title=on location
+        subtitle=UVA, School of Medicine
+        text=Join Michael Szul in Rehearsal A for his discussion on building bot with the Microsoft Bot Framework
+        images=https://sample-image-url.com
+        buttons=Add to list|Learn more]
+
+user: Where is the talk on mobile development?
+[AttachmentLayout=carousel]
+bot: [Thumbnailcard
+        title=another location
+        subtitle=University of Washington
+        text=A brief talk on mobile development vs web
+        images=https://sample-image-url.com
+        buttons=Add to list|Learn more]
+    [Thumbnailcard
+        title=yet one more location too
+        subtitle=Harvard University
+        text=The use of Electron or Angular for mobile UI development
+        images=https://sample-image-url.com
+        buttons=Add to list|Learn more]

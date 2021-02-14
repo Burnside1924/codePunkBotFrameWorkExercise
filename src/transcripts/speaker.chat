@@ -1,0 +1,25 @@
+user=Timothy
+bot=CodePunkConferenceBot
+
+user: Who is speaking about bots?
+bot: [HeroCard
+        title=Michael Szul
+        subtitle=UVA, School of Medicine
+        text=Join Michael Szul in Rehearsal A for his discussion on building bot with the Microsoft Bot Framework
+        images=https://sample-image-url.com
+        buttons=Add to list|Learn more]
+
+user: Who is speaking on Mobile Development?
+[AttachmentLayout=carousel]
+bot: [Herocard
+        title=Markus Thompson
+        subtitle=University of Washington
+        text=A brief talk on mobile development vs web
+        images=https://sample-image-url.com
+        buttons=Add to list|Learn more]
+    [Herocard
+        title=Amanda Robinson
+        subtitle=Harvard University
+        text=The use of Electron or Angular for mobile UI development
+        images=https://sample-image-url.com
+        buttons=Add to list|Learn more]

@@ -1,0 +1,138 @@
+
+
+-----------------------------------------------------------
+ NOTICE:
+ This tool has been deprecated.
+ All functionality was ported over to the new BF CLI.
+ To learn more visit https://aka.ms/NewBFCLI
+-----------------------------------------------------------
+
+[
+  {
+    "conversation": {
+      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+    },
+    "id": "1",
+    "recipient": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "timestamp": "2021-02-06T22:34:46.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+        "name": "CodePunkConferenceBot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "text": "Hello",
+    "timestamp": "2021-02-06T22:34:48.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "text": "Hello! What would you like me to call you?",
+    "timestamp": "2021-02-06T22:34:50.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "text": "Timothy",
+    "timestamp": "2021-02-06T22:34:52.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "text": "Hello, Timothy. Here are some things that I can help you with:\r\n* Are there any talks on Bot Framework?\r\n* When is Michael Szul speaking?\r\n* Who is giving the keynote presentation?\r\n* Where can I hear the TypeScript talk?",
+    "timestamp": "2021-02-06T22:34:54.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
+      "name": "Timothy",
+      "role": "user"
+    },
+    "from": {
+      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
+      "name": "CodePunkConferenceBot",
+      "role": "bot"
+    },
+    "text": "Just type in whatever you need! If you get stuck, just type in \"Help\" and I'll see what I can do.",
+    "timestamp": "2021-02-06T22:34:56.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]
