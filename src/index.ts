@@ -3,6 +3,7 @@
 
 import { BotFrameworkAdapter, ConversationState, MemoryStorage } from 'botbuilder';
 import { LuisRecognizer, QnAMaker } from 'botbuilder-ai';
+import { BlobStorage } from 'botbuilder-azure';
 import { DialogSet } from 'botbuilder-dialogs';
 import { config } from 'dotenv';
 import * as path from 'path';
@@ -57,11 +58,19 @@ const qnaMaker: QnAMaker = new QnAMaker({
     host: QnaMakerHost,
     endpointKey: QnaMakerEndpointKey
 });
-const conversationState: ConversationState = new ConversationState(new MemoryStorage());
+const blobStorage = new BlobStorage(
+    {
+        containerName: process.env.CONTAINER_NAME,
+        storageAccessKey: process.env.STORAGE_ACCESS_KEY,
+        storageAccountOrConnectionString: process.env.STORAGE_NAME
+    }
+);
+const conversationState: ConversationState = new ConversationState(blobStorage);
 const dialogSet = new DialogSet(conversationState.createProperty("dialogState"));
 
 // Create HTTP server
 const server = restify.createServer();
+
 server.listen(process.env.port || process.env.PORT || 3978, () => {
     console.log(`\n${server.name} listening to ${server.url}`);
     console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');

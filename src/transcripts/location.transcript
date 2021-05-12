@@ -1,12 +1,3 @@
-
-
------------------------------------------------------------
- NOTICE:
- This tool has been deprecated.
- All functionality was ported over to the new BF CLI.
- To learn more visit https://aka.ms/NewBFCLI
------------------------------------------------------------
-
 [
   {
     "conversation": {

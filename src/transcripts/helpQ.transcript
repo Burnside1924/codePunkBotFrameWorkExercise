@@ -1,7 +1,7 @@
 [
   {
     "conversation": {
-      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+      "id": "5oQyl0mAOKdUX8/jxnWdaU/TFP0="
     },
     "id": "1",
     "recipient": {
@@ -14,7 +14,7 @@
       "name": "Timothy",
       "role": "user"
     },
-    "timestamp": "2021-02-06T22:34:46.100Z",
+    "timestamp": "2021-02-14T21:25:32.100Z",
     "type": "conversationUpdate",
     "channelId": "chatdown",
     "membersAdded": [
@@ -28,7 +28,7 @@
   },
   {
     "conversation": {
-      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+      "id": "5oQyl0mAOKdUX8/jxnWdaU/TFP0="
     },
     "id": "2",
     "recipient": {
@@ -41,14 +41,14 @@
       "name": "Timothy",
       "role": "user"
     },
-    "text": "Hello",
-    "timestamp": "2021-02-06T22:34:48.100Z",
+    "text": "help",
+    "timestamp": "2021-02-14T21:25:34.100Z",
     "type": "message",
     "channelId": "chatdown"
   },
   {
     "conversation": {
-      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+      "id": "5oQyl0mAOKdUX8/jxnWdaU/TFP0="
     },
     "id": "3",
     "recipient": {
@@ -61,14 +61,33 @@
       "name": "CodePunkConferenceBot",
       "role": "bot"
     },
-    "text": "Hello! What would you like me to call you?",
-    "timestamp": "2021-02-06T22:34:50.100Z",
+    "text": "",
+    "timestamp": "2021-02-14T21:25:36.100Z",
     "type": "message",
-    "channelId": "chatdown"
+    "channelId": "chatdown",
+    "suggestedActions": {
+      "actions": [
+        {
+          "title": "I want to know about a topic",
+          "type": "imBack",
+          "value": "I want to know about a topic"
+        },
+        {
+          "title": "I want to know about a speaker",
+          "type": "imBack",
+          "value": "I want to know about a speaker"
+        },
+        {
+          "title": "I want to know about a venue",
+          "type": "imBack",
+          "value": "I want to know about a venue"
+        }
+      ]
+    }
   },
   {
     "conversation": {
-      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+      "id": "5oQyl0mAOKdUX8/jxnWdaU/TFP0="
     },
     "id": "4",
     "recipient": {
@@ -81,14 +100,14 @@
       "name": "Timothy",
       "role": "user"
     },
-    "text": "Timothy",
-    "timestamp": "2021-02-06T22:34:52.100Z",
+    "text": "I want to know about a topic",
+    "timestamp": "2021-02-14T21:25:38.100Z",
     "type": "message",
     "channelId": "chatdown"
   },
   {
     "conversation": {
-      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
+      "id": "5oQyl0mAOKdUX8/jxnWdaU/TFP0="
     },
     "id": "5",
     "recipient": {
@@ -101,28 +120,8 @@
       "name": "CodePunkConferenceBot",
       "role": "bot"
     },
-    "text": "Hello, Timothy. Here are some things that I can help you with:\r\n* Are there any talks on Bot Framework?\r\n* When is Michael Szul speaking?\r\n* Who is giving the keynote presentation?\r\n* Where can I hear the TypeScript talk?",
-    "timestamp": "2021-02-06T22:34:54.100Z",
-    "type": "message",
-    "channelId": "chatdown"
-  },
-  {
-    "conversation": {
-      "id": "p6nbRJq2I9XV6J9oI48i8YTLN50="
-    },
-    "id": "6",
-    "recipient": {
-      "id": "0BhL6G8JA9ZVo9mht/rB/gXmnA8=",
-      "name": "Timothy",
-      "role": "user"
-    },
-    "from": {
-      "id": "+cQbq3I+25EUFzg7gGlQKNOEvtE=",
-      "name": "CodePunkConferenceBot",
-      "role": "bot"
-    },
-    "text": "Just type in whatever you need! If you get stuck, just type in \"Help\" and I'll see what I can do.",
-    "timestamp": "2021-02-06T22:34:56.100Z",
+    "text": "You can ask:\r\n* _Who is speaking about bots?_\r\n* _Where is the Bot Framework talk?_\r\n* _What time is the Bot Framekwork talk?_",
+    "timestamp": "2021-02-14T21:25:40.100Z",
     "type": "message",
     "channelId": "chatdown"
   }

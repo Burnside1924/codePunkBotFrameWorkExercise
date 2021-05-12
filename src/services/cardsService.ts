@@ -11,10 +11,10 @@ export class CardsService {
     }
 
     createHeroCard(speakerSession: SpeakerSession, intent: string): Attachment {
-        const titles: CardFactoryHeroCardTitles = this.findHeroCardTitles(speakerSession, intent);
+        const titling: CardFactoryHeroCardTitles = this.findHeroCardTitling(speakerSession, intent);
 
         return CardFactory.heroCard(
-            titles.title,
+            titling.title,
             CardFactory.images(this.findImagesLinks(speakerSession)),
             CardFactory.actions(
                 [
@@ -26,13 +26,13 @@ export class CardsService {
                 ]
             ),
             {
-               subtitle: titles.subtitle,
-               text: titles.description
+               subtitle: titling.subtitle,
+               text: titling.description
             }
         )
     }
 
-    findHeroCardTitles(speakerSession: SpeakerSession, intent: string): CardFactoryHeroCardTitles {
+    findHeroCardTitling(speakerSession: SpeakerSession, intent: string): CardFactoryHeroCardTitles {
         const description: string = s(speakerSession.description)
             .stripHtml()
             .truncateWords(30)
